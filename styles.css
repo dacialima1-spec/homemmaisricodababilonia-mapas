@@ -186,7 +186,7 @@ h3 { font-size: 1.15rem; }
 
 .marquee-item {
   flex: 0 0 auto;
-  width: 200px;
+  width: 400px;
 }
 .marquee-item .placeholder-img,
 .marquee-item img {
@@ -198,7 +198,7 @@ h3 { font-size: 1.15rem; }
   box-shadow: var(--shadow);
 }
 .marquee-item--tall {
-  width: 140px;
+  width: 420px;
 }
 .marquee-item--tall .placeholder-img,
 .marquee-item--tall img {
@@ -206,8 +206,8 @@ h3 { font-size: 1.15rem; }
 }
 
 @media (max-width: 720px) {
-  .marquee-item { width: 150px; }
-  .marquee-item--tall { width: 110px; }
+  .marquee-item { width: 300px; }
+  .marquee-item--tall { width: 330px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

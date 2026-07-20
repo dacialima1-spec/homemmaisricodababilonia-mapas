@@ -131,6 +131,8 @@ h3 { font-size: 1.15rem; }
 .cta-btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
 .cta-btn.secondary { background: var(--text); }
 .cta-btn.secondary:hover { background: #140d06; }
+.cta-btn.success { background: #3a7350; }
+.cta-btn.success:hover { background: #2b5940; }
 .cta-wrap { text-align: center; margin-top: 8px; }
 .cta-note { font-size: 0.85rem; color: var(--text-muted); margin-top: 10px; }
 
